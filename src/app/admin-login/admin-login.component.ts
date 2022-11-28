@@ -15,5 +15,11 @@ readValues=()=>{
     "password":this.password
   }
   console.log(data)
+
+  if (this.username=="admin" && this.password=="12345") {
+    alert("Valid credentials")
+  } else {
+    alert("Invalid credentials")
+  }
 }
 }
